@@ -7,7 +7,7 @@ Created with CodeSandbox
 *   On click of row, Single city Bar graph showcasing live-data with color code is rendered
 *   On selecting one or more rows with help of select-checkboxes, multi-group bar graphs showcasing live-data are rendered
 
-#### Deployment:
+#### Demo:
 https://uktt1.csb.app/
 
 
