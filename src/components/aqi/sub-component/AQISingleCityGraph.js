@@ -33,7 +33,7 @@ function AQISingleCityGraph({ city }) {
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="lastUpdated" />
-        <YAxis dataKey="aqi" domain={["dataMin - 1", "dataMax + 5"]} />
+        <YAxis dataKey="aqi" domain={["dataMin - 5", "dataMax + 5"]} />
         <Tooltip />
         <Legend />
         <Bar dataKey="aqi">
