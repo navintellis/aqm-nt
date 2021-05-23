@@ -12,8 +12,8 @@ import {
 } from "recharts";
 import { formatAMPM, getColorCodeForAQI } from "../../../utility";
 
-function AQISingleCityGraph({ city, history }) {
-  const processedData = history[city.city].map(({ lastUpdated, aqi }) => {
+function AQISingleCityGraph({ city }) {
+  const processedData = city.map(({ lastUpdated, aqi }) => {
     return {
       lastUpdated: formatAMPM(new Date(lastUpdated), true),
       aqi: Number(aqi).toFixed(2)
