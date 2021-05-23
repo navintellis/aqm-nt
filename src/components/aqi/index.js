@@ -81,7 +81,7 @@ const AQI = ({ data, sourceData, history }) => {
         width="95%"
         style={{ top: 20 }}
       >
-        <AQISingleCityGraph city={history[clickedRow.city]} />
+        {!!clickedRow && <AQISingleCityGraph city={history[clickedRow.city]} />}
       </Modal>
     </>
   );
